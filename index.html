@@ -2,14 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Maven+Pro:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"><title>Dolt</title>
 </head>
 <body>
-    <p class="f-b">Food-band</p>
-    <div class="main"></div>
+    <div class="site">
+    <header class="head">
+        <div class="logo"><span class="f-b"><a href="/" class="l">DOLT</a></span></div>
+        <div class="l-desc">Заказывай еду из любимых ресторанов с <b>Dolt</b>.</div>
+        <div class="chos">
+            <input list="city" class="citycho" placeholder="Karaganda">
+            <datalist id="city">
+                <option value="Karaganda"></option>
+                <option value="Astana"></option>
+                <option value="Almaty"></option>
+            </datalist>
+        </div>
+    </header>
+    <main>
+        <div class="main"></div>
+    </main>
+    <footer>
+        <div class="socials">
+            <div class="inst"><a href="https://www.instagram.com/selnoron">@selnoron</a></div>
+            <div class="copy"><span>Copyright © 2019-2023 DANIAL SADYKOV | STEP ACADEMY</span></div>
+        </div>
+    </footer>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
